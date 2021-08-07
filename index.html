@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>MaterializedCSS</title>
+      <link rel="stylesheet" href="css/mystyles.css">
+    </head>
+    <body>
+     
+        <div class="navbar-fixed">
+         <nav class="teal accent-3">
+          <div class="container">
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Logo</a>
+            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      </div>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li class="active"><a href="">About</a></li>
+              <li><a href="">Contents</a></li>
+              <li><a href="">Media</a></li>
+              <li><a href="">Contact Us</a></li>
+              <li><a href="">Social</a></li>
+              </ul>
+          </div>
+          </div>
+        </nav>
+      </div>
+      
+      
+      <div class="container">
+      <ul id="slide-out" class="sidenav">
+        <li><a href="">About</a></li>
+        <li><a href="">Contents</a></li>
+        <li><a href="">Media</a></li>
+        <li><a href="">Contact Us</a></li>
+        <li><a href="">Social</a></li>
+      </ul>
+    </div>
+      
+
+        <div class="parallax-container">
+          <div class="parallax"><img style="position: relative;top: -200px;" src="images/image3 - Copy.jpg"></div>
+        </div>
+    
+        <div class=" section teal accent-3">
+        <div class="container">
+          <div class="center">
+          <h1>Photography</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+        </div>
+
+
+        <div class="parallax-container">
+          <div class="parallax"><img style="position: relative;top: -200px;" src="images/image4 - Copy.jpg"></div>
+        </div>
+
+
+        <div class=" section teal accent-3">
+        <div class="container">
+          <div class="center">
+          <h1>Photography</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+        </div>
+
+
+        <div class="parallax-container">
+          <div class="parallax"><img style="position: relative;top: -200px;" src="images/imag5 - copy.jpg"></div>
+        </div>
+
+        <div class=" section teal accent-3">
+        <div class="container">
+          <div class="center">
+          <h1>Photography</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+        </div>
+        
+      <!--JavaScript at end of body for optimized loading-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script type="text/javascript">
+        const pc = document.querySelectorAll(".parallax-container")
+        M.Parallax.init(pc, {
+          
+        });
+
+        const sn = document.querySelector(".sidenav");
+        M.Sidenav.init(sn, {});
+      </script>
+     </body>
+  </html>
